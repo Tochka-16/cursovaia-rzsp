@@ -1,0 +1,6 @@
+module:file.detector.main
+app
+controller
+model
+service
+util

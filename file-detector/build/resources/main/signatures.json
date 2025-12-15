@@ -1,0 +1,170 @@
+[
+  {
+    "fileType": "PNG image",
+    "extensions": ["png"],
+    "magic": "89 50 4E 47 0D 0A 1A 0A",
+    "offset": 0
+  },
+  {
+    "fileType": "ZIP archive",
+    "extensions": ["zip"],
+    "magic": "50 4B 03 04",
+    "offset": 0
+  },
+  {
+    "fileType": "JPEG image",
+    "extensions": ["jpg", "jpeg"],
+    "magic": "FF D8 FF",
+    "offset": 0
+  },
+  {
+    "fileType": "GIF image",
+    "extensions": ["gif"],
+    "magic": "47 49 46 38",
+    "offset": 0
+  },
+  {
+    "fileType": "TIFF image",
+    "extensions": ["tiff", "tif"],
+    "magic": "49 49 2A 00, 4D 4D 00 2A",
+    "offset": 0
+  },
+  {
+    "fileType": "BMP image",
+    "extensions": ["bmp"],
+    "magic": "42 4D",
+    "offset": 0
+  },
+  {
+    "fileType": "PDF document",
+    "extensions": ["pdf"],
+    "magic": "25 50 44 46",
+    "offset": 0
+  },
+  {
+    "fileType": "Microsoft Word (DOC)",
+    "extensions": ["doc"],
+    "magic": "D0 CF 11 E0 A1 B1 1A E1",
+    "offset": 0
+  },
+  {
+    "fileType": "Microsoft Word (DOCX)",
+    "extensions": ["docx"],
+    "magic": "50 4B 03 04 14 00 06 00",
+    "offset": 0
+  },
+  {
+    "fileType": "Microsoft Excel (XLS)",
+    "extensions": ["xls"],
+    "magic": "D0 CF 11 E0 A1 B1 1A E1",
+    "offset": 0
+  },
+  {
+    "fileType": "Microsoft Excel (XLSX)",
+    "extensions": ["xlsx"],
+    "magic": "50 4B 03 04 14 00 06 00",
+    "offset": 0
+  },
+  {
+    "fileType": "Microsoft PowerPoint (PPT)",
+    "extensions": ["ppt"],
+    "magic": "D0 CF 11 E0 A1 B1 1A E1",
+    "offset": 0
+  },
+  {
+    "fileType": "Microsoft PowerPoint (PPTX)",
+    "extensions": ["pptx"],
+    "magic": "50 4B 03 04 14 00 06 00",
+    "offset": 0
+  },
+  {
+    "fileType": "OpenDocument Text",
+    "extensions": ["odt"],
+    "magic": "50 4B 03 04",
+    "offset": 0
+  },
+  {
+    "fileType": "OpenDocument Spreadsheet",
+    "extensions": ["ods"],
+    "magic": "50 4B 03 04",
+    "offset": 0
+  },
+  {
+    "fileType": "OpenDocument Presentation",
+    "extensions": ["odp"],
+    "magic": "50 4B 03 04",
+    "offset": 0
+  },
+  {
+    "fileType": "Rich Text Format",
+    "extensions": ["rtf"],
+    "magic": "7B 5C 72 74 66 31",
+    "offset": 0
+  },
+  {
+    "fileType": "MP3 audio",
+    "extensions": ["mp3"],
+    "magic": "49 44 33",
+    "offset": 0
+  },
+  {
+    "fileType": "WAV audio",
+    "extensions": ["wav"],
+    "magic": "52 49 46 46",
+    "offset": 0
+  },
+  {
+    "fileType": "MPEG video",
+    "extensions": ["mpeg", "mpg"],
+    "magic": "00 00 01 BA, 00 00 01 B3",
+    "offset": 0
+  },
+  {
+    "fileType": "MP4 video",
+    "extensions": ["mp4"],
+    "magic": "00 00 00 20 66 74 79 70 6D 70 34",
+    "offset": 0
+  },
+  {
+    "fileType": "AVI video",
+    "extensions": ["avi"],
+    "magic": "52 49 46 46",
+    "offset": 0
+  },
+  {
+    "fileType": "Executable (Windows PE)",
+    "extensions": ["exe", "dll"],
+    "magic": "4D 5A",
+    "offset": 0
+  },
+  {
+    "fileType": "Unix Executable",
+    "extensions": [],
+    "magic": "7F 45 4C 46",
+    "offset": 0
+  },
+  {
+    "fileType": "TAR archive",
+    "extensions": ["tar"],
+    "magic": "75 73 74 61 72",
+    "offset": 257
+  },
+  {
+    "fileType": "GZIP archive",
+    "extensions": ["gz"],
+    "magic": "1F 8B 08",
+    "offset": 0
+  },
+  {
+    "fileType": "RAR archive",
+    "extensions": ["rar"],
+    "magic": "52 61 72 21 1A 07 00",
+    "offset": 0
+  },
+  {
+    "fileType": "7‑Zip archive",
+    "extensions": ["7z"],
+    "magic": "37 7A BC AF 27 1C",
+    "offset": 0
+  }
+]

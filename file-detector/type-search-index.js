@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"app","l":"FileDetectorApp"},{"p":"service","l":"FileDetectorService"},{"p":"model","l":"FileSignature"},{"p":"controller","l":"MainController"},{"p":"util","l":"SignatureLoader"},{"p":"util","l":"SignatureMatcher"}];updateSearchResults();

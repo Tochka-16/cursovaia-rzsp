@@ -1,0 +1,54 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.14'
+}
+
+group = 'ru.example'
+version = '1.0-SNAPSHOT'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+javafx {
+    version = '21'
+    modules = [ 'javafx.controls', 'javafx.fxml' ]
+}
+jar {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+    dependencies {
+        implementation 'org.slf4j:slf4j-api:2.0.9'
+        implementation 'ch.qos.logback:logback-classic:1.4.14'
+
+        // JSON
+        implementation 'com.fasterxml.jackson.core:jackson-core:2.15.2'
+        implementation 'com.fasterxml.jackson.core:jackson-databind:2.15.2'
+        implementation 'com.fasterxml.jackson.core:jackson-annotations:2.15.2'
+
+        testImplementation 'org.junit.jupiter:junit-jupiter:5.10.1'
+    }
+    manifest {
+        attributes 'Main-Class': 'FileDetectorApp.class'
+    }
+}
+
+
+
+application {
+    mainModule = 'file.detector'
+    mainClass = 'app.FileDetectorApp'
+}
+
+test {
+    useJUnitPlatform()
+}
